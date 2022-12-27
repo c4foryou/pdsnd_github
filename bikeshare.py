@@ -22,7 +22,9 @@ def get_filters(city, month, day):
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month_name_list = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
-    month_number = [i for i in range(1,13)]
+    month_number = []
+    for i in range(1,13):
+        month_number.append(i)
     month_dict = {name: value for name, value in zip(month_name_list, month_number)}
     
     if month == 'all':
