@@ -12,6 +12,7 @@ The code will load data after filtering raw data by city, month, and day of week
 
 #### Analyzing data
 The code will analyze data and provide results after analyzing it.<br/>
+**User information analysis is not available for Washington
 
 #### Displaying raw data
 The code will provide raw data upon user's request.
