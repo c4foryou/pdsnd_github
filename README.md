@@ -29,3 +29,4 @@ bikeshare.py
 
 ### Credits
 Udacity's Programming for Data Science with Python program <br/>
+Motivate(https://motivateco.com/)
