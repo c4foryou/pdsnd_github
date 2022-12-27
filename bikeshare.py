@@ -35,7 +35,9 @@ def get_filters(city, month, day):
         
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     dow_name_list = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-    dow_number = [i for i in range(0,7)]
+    dow_number = []
+    for i in range(0,7):
+        dow_number.append(i)
     dow_dict = {name: value for name, value in zip(dow_name_list, dow_number)}
     
     if day == 'all':
